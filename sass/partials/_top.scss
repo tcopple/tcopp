@@ -1,0 +1,39 @@
+$top-bg: #000;
+
+body > top {
+  .top {
+    background: $top-bg;
+    width: 100%;
+    float: left;
+    height: auto;
+    margin: 0px auto;
+    padding: 5px 0px;
+    color: $yellow;
+
+    .left { float: left; padding-left: 2em; }
+    .right { float: right; padding-right: 2em; }
+
+    form {
+      @include background-clip(padding-box);
+      margin: 0; padding: 0;
+      .search {
+        padding: .3em .5em 0;
+        font-size: .85em;
+        @extend .sans;
+        line-height: 1.1em;
+        width: 200px;
+        @include border-radius(.5em);
+        @include background-clip(padding-box);
+        background-color: lighten($top-bg, 20);
+        border: 1px solid $top-bg;
+        color: #888;
+        &:focus {
+          background-color: lighten($top-bg, 20);
+          outline: none;
+        }
+      }
+    }
+
+    fieldset[role=search]{ float: right; width: 48%; }
+  }
+}
