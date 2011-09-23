@@ -1,0 +1,28 @@
+---
+layout: post
+title: two natures
+date: 2011-06-16 23:29:40
+---
+
+{% highlight ruby %}
+def foo
+  puts "I believe in the Gd of the bible."
+end
+{% endhighlight %}
+<br />
+I'm a saved child of Gd.
+I'm also programmer.
+
+In the ten years that I've been programming, I've always found these two identities to be distinctly separate from each other. Not opposed. Just separate. Much like when the oils and solids separate in italian dressing.
+
+Everything from the communities each identity engages to the physical act of walking in that identity, is different. 
+
+The reason that the programmer stereotype is a dweeby, pale kid abjectly removed from society is because when you're programming, you *are* removed from society. Your fingers peck away at a keyboard whose only response back is erratic clacking noises. Your eyes squint to read light text on a dark screen surrounded by magnaimous braces, colons, and quotations. And your mind is completely isolated, there's no room for any other thought outside the precise meaning of what you're reading, what it's doing, what it should be doing, and how you can make it do that thing it should be doing. I'm not trying to say that programmers don't ever talk to people, or that sometimes their work doesn't require some amount of group dialog, just that when you're actually programming, the blinders go on until you start compiling. 
+
+The programming community is heady, intellectual, sincere, and entirely too egotistical. Christian community is probably not heady enough, but generally accepting, kind, and humble. Neither community is generous enough, in coin or grace.
+
+If you're confused, at the pont that I'm trying to make, it's this: I struggle to find Gd in my work. Not in my work place, not in the people I work with, but in the actual action of it. In the infrastructure that programmers operate in and often in the results.
+
+What's more is that this problem isn't solvable if I seek a different end result. I work in finance now, the pen-ultimate industry of selfishness, but even if if the end goal was a church website or a donor mangagment system that action of programming would still feel void of Gd.
+
+I'm having a difficult time articulating myself on this point. So I think I'll stop now.
