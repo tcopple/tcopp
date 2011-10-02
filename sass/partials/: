@@ -4,8 +4,10 @@ body > footer {
 
   font-size: .8em;
   text-align: right;
-  float:right;
-  background: $dark_grey;
+  width: 100%;
+  height: auto;
+  float: left;
 
+  margin: 0px auto;
   p:last-child { margin-bottom: 0; }
 }

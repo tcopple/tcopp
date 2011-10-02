@@ -1,0 +1,33 @@
+/* colors */
+$yellow: #fd0;
+$grey: #888;
+$tan: #dfded2;
+$black: #000;
+$white: #fff;
+$dark_grey: lighten($black, 20);
+
+@mixin base_dark {
+  color: $grey;
+  background-color: $dark_grey;
+
+  a, a:hover, a:visited {
+    color: $yellow;
+    text-decoration: none;
+
+    &:hover { text-decoration: underline; }
+    &:visited { }
+  }
+}
+
+@mixin base_light {
+  color: $dark_grey;
+  background-color: $tan;
+
+  a, a:hover, a:visited {
+    color: $white;
+    text-decoration: none;
+
+    &:hover { text-decoration: underline; }
+    &:visited { }
+  }
+}

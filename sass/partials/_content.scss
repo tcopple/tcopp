@@ -1,21 +1,32 @@
 article {
+  @include base_light;
+
   overflow: hidden;
   padding-top: 1em;
-  a { @extend .force-wrap; }
+  color: $dark_grey;
+
+  a { @extend .force-wrap;
+    font-weight: bolder;
+  }
+
   header {
+    width: 65%;
     position: relative;
     padding-top: 2em;
     padding-bottom: 1em;
     margin-bottom: 1em;
     background: $img-border bottom left repeat-x;
+
     h1 {
       margin: 0;
       a { text-decoration: none;
-        &:hover { text-decoration: underline; } }
+        &:hover { text-decoration: underline; }
+      }
     }
+
     p {
       font-size: .9em;
-      color: $text-color-light;
+      color: $grey;
       margin: 0;
       &.meta {
         @extend .sans;
@@ -23,16 +34,14 @@ article {
         position: absolute; top: 0;
       }
     }
-    @media only screen and (min-width: 768px) {
-      margin-bottom: 1.5em;
-      padding-bottom: 1em;
-      background: $img-border bottom left repeat-x;
-    }
   }
+
   h2 {
     padding-top: 0.8em;
     background: $img-border top left repeat-x;
   }
+
+  .entry-content { width: 45%; }
   .entry-content & h2:first-child, header + h2 { padding-top: 0; }
   h2:first-child, header + h2 { background: none; }
   .feature {
@@ -43,11 +52,13 @@ article {
     font-size: 2.0em; font-style: italic;
     line-height: 1.3em;
   }
+
   img, video, .flash-video {
     @extend .flex-content;
     @extend .basic-alignment;
     @include shadow-box;
   }
+
   video, .flash-video { margin: 0 auto 1.5em; }
   video { display: block; width: 100%; }
   .flash-video {
@@ -67,6 +78,7 @@ article {
       }
     }
   }
+
   > footer {
     padding-bottom: 2.5em;
     margin-top: 2em;
@@ -79,13 +91,14 @@ article {
       @extend .separator;
     }
   }
-
 }
+
 article + article {
   .blog-index & {
     background: $img-border top left repeat-x;
   }
 }
+
 #content .blog-index {
   padding: { top: 0; bottom: 0; }
   article { padding-top: 2em; }
@@ -119,24 +132,4 @@ article + article {
   content: "\2022 ";
   padding: 0 .4em 0 .2em;
   display: inline-block;
-}
-
-#content nav.pagination {
-  text-align: center;
-  font-size: .95em;
-  div {
-    position: relative;
-    background: $img-border top left repeat-x;
-    padding: {top: 1.5em; bottom: 1.5em;}
-  }
-  a {
-    text-decoration: none;
-    color: $text-color-light;
-    &.prev { position: absolute; left: 0; }
-    &.next { position: absolute; right: 0; }
-    &:hover { color: $link-color-hover; }
-    &[href*=archive] {
-      &:before, &:after { content: '\2014'; padding: 0 .3em; }
-    }
-  }
 }
