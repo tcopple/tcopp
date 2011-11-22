@@ -20,11 +20,13 @@
   }
   border: 1px solid $pre-border !important;
 }
+
 html .gist .gist-file {
   margin-bottom: 1.8em;
   position: relative;
   border: none;
   padding-top: image-height("code_bg.png") !important;
+
   .gist-syntax {
     @if $solarized == dark {
       border-bottom: 1px solid $base03 !important;
@@ -38,6 +40,7 @@ html .gist .gist-file {
       }
     }
   }
+
   .gist-meta {
    padding: .6em 0.8em;
    border: 1px solid lighten($base02, 2) !important;
@@ -68,6 +71,7 @@ html .gist .gist-file {
     }
   }
 }
+
 pre {
   background: $pre-bg ;
   @include border-radius(.4em);
@@ -80,6 +84,7 @@ pre {
   color: $pre-color;
   overflow: auto;
 }
+
 h3.filename {
   @extend .code-title;
   + pre { @include border-top-radius(0px); }
@@ -216,6 +221,7 @@ figure.code {
     margin-bottom: 0;
   }
 }
+
 .code-title {
   text-align: center;
   font-size: 13px;

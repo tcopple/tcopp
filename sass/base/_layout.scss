@@ -1,21 +1,26 @@
 $max-width: 1440px !default;
 
-// Padding used for layout margins
+//padding used for layout margins
 $pad-min: 18px !default;
 $pad-narrow: 25px !default;
 $pad-medium: 35px !default;
 $pad-wide: 55px !default;
 
-$indented-lists: false !default;
-
 .group { @include pie-clearfix; }
 
 body {
-  -webkit-text-size-adjust: none;
+  -webkit-text-size-adjust: auto;
   max-width: $max-width;
   position: relative;
   margin: 0 auto;
-  > header, > nav, > footer, #content > article, #content > div > article, #content > div > section, nav.pagination {
+
+  > header,
+  > nav,
+  > footer,
+  #content > article,
+  #content > div > article,
+  #content > div > section,
+  nav.pagination {
     @extend .group;
     padding-left: $pad-min;
     padding-right: $pad-min;
@@ -32,42 +37,23 @@ body {
       padding-right: $pad-wide;
     }
   }
-  > header {
-    font-size: 1em;
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
+}
+
+#content {
+  > div,
+  > article {
+    width: 100%;
   }
 }
 
-#content { > div, > article { width: 100%; }}
-
-.flex-content { max-width: 100%; height: auto; }
+.flex-content {
+  max-width: 100%;
+  height: auto;
+}
 
 .basic-alignment {
   &.left { float: left; margin-right: 1.5em; }
   &.right { float: right; margin-left: 1.5em; }
   &.center { display:block; margin: 0 auto 1.5em; }
   &.left, &.right { margin-bottom: .8em; }
-}
-
-@media only screen and (min-width: 550px) {
-  body > header { font-size: 1em; }
-}
-@media only screen and (min-width: 768px) {
-  body { -webkit-text-size-adjust: auto; }
-  body > header { font-size: 1.2em; }
-  #main {
-    @extend .group;
-    padding: 0;
-    margin: 0 auto;
-  }
-  #content {
-    @extend .group;
-    position: relative;
-    > div, > article {
-      padding-top: $pad-medium/2;
-      padding-bottom: $pad-medium/2;
-      float: left;
-    }
-  }
 }

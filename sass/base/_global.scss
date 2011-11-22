@@ -1,5 +1,5 @@
 /* colors */
-$yellow: #fd0;
+$yellow: #ffcc00;
 $grey: #888;
 $tan: #dfded2;
 $black: #000;
@@ -24,10 +24,15 @@ $dark_grey: lighten($black, 20);
   background-color: $tan;
 
   a, a:hover, a:visited {
-    color: $white;
+    color: $dark_grey;
     text-decoration: none;
 
     &:hover { text-decoration: underline; }
     &:visited { }
   }
 }
+
+html {
+  background: $dark_grey;
+}
+

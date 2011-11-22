@@ -3,9 +3,11 @@ body > footer {
   @extend .sans;
 
   font-size: .8em;
+  width: 100%;
   text-align: right;
   float:right;
-  background: $dark_grey;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
   p:last-child { margin-bottom: 0; }
 }

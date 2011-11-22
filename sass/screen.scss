@@ -2,8 +2,5 @@
 @include global-reset;
 @include reset-html5;
 
-@import "custom/colors";
-@import "custom/layout";
 @import "base";
 @import "partials";
-@import "custom/styles";

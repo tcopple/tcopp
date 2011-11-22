@@ -1,58 +1,30 @@
 $blockquote: $type-border !default;
 $mono: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;
 
-// Fonts
-.heading {
-  font-family: "PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif;
-}
+// fonts
+.heading { font-family: "PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif; }
 .sans { font-family: "PT Sans", "Helvetica Neue", Arial, sans-serif; }
 .serif { font-family: "PT Serif", Georgia, Times, "Times New Roman", serif; }
 .mono { font-family: $mono; }
 
-body > header h1 {
-  font-size: 2.2em;
-  @extend .heading;
-  font-weight: normal;
-  line-height: 1.2em;
-  margin-bottom: 0.6667em;
+h1 { font-size: 3.0em; }
+h2 { font-size: 1.8em; }
+h3 { font-size: 1.6em; }
+h4 { font-size: 1.4em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 0.8em; }
+.inline1 { font-size: 2.0em; }
+.inline2 { font-size: 1.8em; }
+.inline3 { font-size: 1.6em; }
+.inline4 { font-size: 1.4em; }
+.inline5 { font-size: 1.2em; }
+.inline6 { font-size: 0.8em; }
+
+p {
+  font-size: 1.0em;
+  line-height: 1.0em;
 }
 
-body {
-  line-height: 1.5em;
-  color: $text-color;
-  @extend .serif;
-}
-h1 {
-  font-size: 2.2em;
-  line-height: 1.2em;
-}
-
-@media only screen and (min-width: 992px) {
-  body { font-size: 1.15em; }
-  h1 { font-size: 2.6em; line-height: 1.2em; }
-}
-
-#{headings()}{
-  @extend .heading;
-  text-rendering: optimizelegibility;
-  margin-bottom: 1em;
-  font-weight: bold;
-}
-h2, section h1 {
-  font-size: 1.5em;
-}
-h3, section h2, section section h1 {
-  font-size: 1.3em;
-}
-h4, section h3, section section h2, section section section h1 {
-  font-size: 1em;
-}
-h5, section h4, section section h3 {
-  font-size: .9em;
-}
-h6, section h5, section section h4, section section section h3 {
-  font-size: .8em;
-}
 p, blockquote, ul, ol { margin-bottom: 1.5em; }
 
 ul { list-style-type: disc;
@@ -109,36 +81,4 @@ blockquote {
     a { color: $text-color-light !important; word-wrap: break-word; }
     &:before { content: '\2014'; padding:{right: .3em; left: .3em;} color: $text-color-light; }
   }
-  @media only screen and (min-width: 992px) {
-    padding-left: 1.5em;
-    border-left-width: 4px;
-  }
-}
-
-.has-pullquote:before {
-  /* Reset metrics. */
-  padding: 0;
-  border: none;
-
-  /* Content */
-  content: attr(data-pullquote);
-
-  /* Pull out to the right, modular scale based margins. */
-  float: right;
-  width: 45%;
-  margin: .5em 0 1em 1.5em;
-
-  /* Baseline correction */
-  position: relative;
-  top: 7px;
-  font-size: 1.4em;
-  line-height: 1.45em;
-}
-/* @extend this to force long lines of continuous text to wrap */
-.force-wrap {
-  white-space: -moz-pre-wrap;
-  white-space: -pre-wrap;
-  white-space: -o-pre-wrap;
-  white-space: pre-wrap;
-  word-wrap: break-word;
 }
