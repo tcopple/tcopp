@@ -8,10 +8,14 @@ $pad-wide: 55px !default;
 
 .group { @include pie-clearfix; }
 
+html {
+  height: 100%;
+}
+
 body {
   -webkit-text-size-adjust: auto;
   max-width: $max-width;
-  position: relative;
+  height: 100%;
   margin: 0 auto;
 
   > header,
@@ -20,6 +24,7 @@ body {
   #content > article,
   #content > div > article,
   #content > div > section,
+
   nav.pagination {
     @extend .group;
     padding-left: $pad-min;
@@ -39,7 +44,13 @@ body {
   }
 }
 
+#main {
+  @include base_light;
+  min-height: 100%;
+}
+
 #content {
+  min-height: 100%;
   > div,
   > article {
     width: 100%;

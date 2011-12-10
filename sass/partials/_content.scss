@@ -10,6 +10,7 @@ article {
 
     h1.entry-title {
       font-size: 4em;
+      padding-bottom: 20px;
 
       a {
         &:hover { color: $white; text-decoration: none; }

@@ -6,6 +6,10 @@ $black: #000;
 $white: #fff;
 $dark_grey: lighten($black, 20);
 
+html {
+  background: $grey;
+}
+
 @mixin base_dark {
   color: $grey;
   background-color: $dark_grey;
@@ -30,9 +34,5 @@ $dark_grey: lighten($black, 20);
     &:hover { text-decoration: underline; }
     &:visited { }
   }
-}
-
-html {
-  background: $dark_grey;
 }
 
