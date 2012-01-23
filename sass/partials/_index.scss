@@ -1,0 +1,52 @@
+.spacer { content: "&nbsp;"; height: 40px; width: 100%; }
+
+.index-content {
+  display: block;
+
+  .writings {
+    float: left;
+    width: 600px;
+    display: inline;
+
+    ul.posts {
+      position: relative;
+      list-style-type: none;
+
+      li {
+        position: relative;
+        display: block;
+
+        .year {
+          font-size: 2em;
+          color: $dark_grey;
+          margin-left: 115px;
+        }
+
+        .post {
+          margin-left: 140px;
+          font-size: 1.5em;
+
+          time {
+            color: $grey;
+          }
+
+          .title {
+          }
+        }
+      }
+    }
+  }
+
+  .social {
+    float: left;
+    width: 600px;
+    display: inline;
+
+
+    ul.link {
+      list-style-type: none;
+      li {
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+---
+title: matt chandler said
+layout: post
+---
+
+I listen to Matt Chandler, the pastor of "The Village Church":http://www.thevillagechurch.net, a lot. It started several years ago when I moved away from Texas and began my first adult job. When I found myself sitting at a desk for obscene amounts of my time. Being far from home and lonely, I longed to hear God in a familiar way. After spending a lot of time following Matt Carter, of "The Austin Stone":http://www.austinstone.org, during college; it was recommended that I try out Mr. Chandler.
+
+In the first podcast of his I listened too he blasted his congregation for being a body of referee's who blow their whistles but never actually play in the game. *I was hooked:* because I often feel like a whistle blower, not because I want to point out other's faults but because I don't feel like I have the time, opportunity, or know how to correct things. *I was hooked:* because it's refreshing to sit under a pastor who's fear of God is greater than their fear of man. *I was hooked:* because I felt like, up here in the great north east, I was losing my Texan'ness, and Matt Chandler was giving me a piece of it back.
+
+So that's how this story starts.
+
+Today, years later, I still listen to Matt Chandler, almost every week. I've back tracked and listened to every sermon he's recorded at The Village for the last 8 years. I have more of their sermons on my computer than they list on their website. And then I realized I had a problem. In my mind, I remember statements, phrases, and exegesis of scriptures from all those talks, but I can never remember which talk contains which content. I would reference something he said at bible study, or think on an application while I was on the train but not remember precisely which podcast had which information so I could show others.
+
+Then my training kicked in. I asked:
+
+_What if I could catalog everything Matt Chandler he's said and make it searchable on a website?_
+
+So that's what I did. Thankfully The Village transcribes all their sermonst o pdf files, so I didn't have to relisten to everything. From there it was pretty simple. A few tools, a couple rake tasks, two database models and some basic text using sphinx and I have a functinoal website where anything Matt Chandler has said from the stage of the Village Church can be search by text.
+
+_(enter stage left)_ "the code":http://www.github.com/tcopple/mattchandlersaid/
+_(enter stage right)_ "www.mattchandlersaid.com":http://www.mattchandlersaid.com
