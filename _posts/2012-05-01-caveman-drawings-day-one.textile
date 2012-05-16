@@ -1,8 +1,0 @@
----
-layout: post
-title: caveman drawings: day one
----
-
-h1. {{ page.title }}
-
-test

@@ -1,0 +1,34 @@
+---
+layout: post
+title: caveman drawings - week one
+---
+
+h1. {{ page.title }}
+
+7 paleo thoughts for 7 paleo days.
+
+h3. 1. Save some, spend some.
+
+p. It's cheaper than my normal fare, which consists of 5-10 meals out a week whether that's lunch at Chipotle while I'm working in NYC or dinner's with Madison and Co. in New Haven on the weekends. Understandably it's expensive because there's so much fresh food involved. Organic meat, fresh nuts, coconut substitues and pesticide free vegetables. All in all I think I'll end up about even at the end of the month.
+
+h3. 2. I feel pretentious reading ingredient lists and asking my servers exactly what's in every dish.
+
+p. I mean have you ever been that guy in the grocery store who picks up every different brand of dark chocolate candy to see if *this* one is the one that doesn't contain "sugar'tose", only to put them all down and walk away dejected. Now I have and I hate it.
+
+h3. 3. 3. 3. Cauliflower is the new tomato.
+
+p. For me tomatoes were always a food that I liked in things but not by themselves. Cooked, mashed, steamed, sauteed, boiled, sliced, you name it. As long as it wasn't whole and and raw. Cauliflower is like that also. I don't like it unless it's soft, and mixed in with many other ingredients. By itself it's a bear.
+
+h3. 4. Speaking of cauliflower.
+
+p. "This":http://www.nomnompaleo.com/post/3105098303/asian-cauliflower-fried-rice is one of the the best things I've ever made.
+
+h3. 5. They have "purple":http://www.nomnompaleo.com/post/11177387703/paleo-comfort-foods-farmers-pie cauliflower.
+
+p. Reminds me of playdough.
+
+h3. 6. Absolutely "everything":http://www.nomnompaleo.com/post/1626061164/roasted-broccoli-bacon-recipe tastes good when it's cooked in bacon grease.
+
+h3. 7. Real food, without sauce, IS good.
+
+p. I've always been someone who dunked anything I ate in something else. Vegetables, fruit, pizza, steak, burgers, mexican. Whatever it was I wanted to cover it in a sauce and the mop of the sauce at the end of the meal. For the most part, this isn't the paleo way, I've been encouraged to eat things as close to their natural state as possible and for the most part they've been extremely good. I've realized I like kale, without a lot of dressing. I enjoy mushrooms and onions raw. Most surprisingly.... A nut doesn't have to be covered in chocolate or yogurt for it to taste good. Hard to believe I know.
