@@ -1,7 +1,7 @@
 namespace :server do
   task :sass do
     Dir.glob("_sass/*.sass").each do |sass|
-      css = File.join('css', File.basename(sass, '.sass')) << '.css'
+      css = File.join('_site/css', File.basename(sass, '.sass')) << '.css'
 
       `sass #{sass} #{css}`
     end
