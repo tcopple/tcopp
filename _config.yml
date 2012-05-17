@@ -1,3 +1,4 @@
+exclude: Rakefile
 pygments: true
 markdown: kramdown
 kramdown:
