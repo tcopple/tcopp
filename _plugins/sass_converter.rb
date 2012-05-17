@@ -1,5 +1,3 @@
-require 'sass'
-
 module Jekyll
   class SassConverter < Converter
     safe true
@@ -26,7 +24,7 @@ module Jekyll
     def convert(content)
       setup
       begin
-        engine = Sass::Engine.new(content, :syntax => syntax(content), :load_paths => ["./sass/"], :style => :compressed).render
+        engine = Sass::Engine.new(content, :syntax => syntax(content), :style => :compressed).render
       rescue StandardError => e
         puts "Sass Exception (#{e.sass_line}: #{e.message})"
       end
