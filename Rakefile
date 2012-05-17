@@ -1,18 +1,15 @@
-namespace :server do
-  task :sass do
-    Dir.glob("_sass/*.sass").each do |sass|
-      css = File.join('_site/css', File.basename(sass, '.sass')) << '.css'
-
-      `sass #{sass} #{css}`
-    end
+namespace :site do
+  task :preview do
+    puts "Starting Preview"
+    `jekyll --auto --server 5001`
   end
 
-  task :preview do
-    puts "Compiling Sass"
-    Rake::Task["server:sass"].invoke
+  task :build do
+    `jekyll`
+  end
 
-    puts "Starting Preview"
-    `jekyll --server 5001`
+  task :deploy do
+
   end
 end
 
@@ -35,4 +32,4 @@ TEXT
   end
 end
 
-task :default => ['server:preview']
+task :default => ['site:preview']
