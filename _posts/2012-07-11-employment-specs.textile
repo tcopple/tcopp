@@ -1,0 +1,22 @@
+---
+layout: post
+title: employment specs
+---
+
+h1. {{ page.title }}
+
+p. When I was in college I had a professor who required UML diagrams of every interaction our assignments facilitated, and clamored something to the effect of:
+
+bq. You're likely to spend you're whole career working without sufficient specs but then be blamed for not getting things right the first time.
+
+p. Despite the fact the UML diagrams and user specifications are oceans apart in terms of benefit and function, I can -- after several years in industry both large and small -- agree that my job would be much easier if product developers knew ahead of time what it was they wanted, what they were expecting, and what requirements they were unknowingly witholding from me, because they thought I thought like they did, when in fact I don't.
+
+p. Now i'm going to make a bit of a leap here but I'll try to round it out coherently. *Formal job descriptions are to a perspective hire like project specifications are to an engineer.* Thanks to a booming industry, meetups, social media, and the mixed blessing that LinkedIn can be, any engineer worth his salt should be getting exactly what he's worth, working in a position that meets all the expectations he has for his job, and still be receiving anywhere between five to ten job inquires a month (your mileage may vary).
+
+p. In the last few years this has been my story. While I was perfectly happy at "Factset":http://www.factset.com and "Nexus":http://www.nexusri.com I still found myself pursued fairly consistently by recruiters. At first, the action pumps you up and makes you think more highly of yourself than you should. Then you learn how the _game_ works and some of the tricks. One of the _tricks_ I learned is that *having a formal job description is the first hurdle every company or recruiter must pass.* If they can't pass the job description hurlde, then I don't even try to pass their phone screen hurdle. Think about it, if there isn't a document -- formal or informal -- describing what it is they want, how can you be sure that you're even needed? More importantly how can you be sure the thing you're being hired for is the thing you'll be doing when you start.
+
+p. A few weeks ago I had a recruiter send me a personal email asking if I was interested in a position, when I asked him for a job description -- so I could determine if I was interested you know based on skills, technologies, company goals, etc. -- he responded *"there isn't a description for the position but I promise it's worth your while, most of the time descriptions aren't correct or accurate."* My response: "Why on earth would I want to work for a company that can't accurately put together something as simple as a job description?". I didn't get a response back.
+
+p. Like I said, as a developer I often find myself longing for specs that never come, and I'm forced to implment the wrong thing or else risk looking like I'm uninterested. The difference in the job search world is that they have to make me want to work there before I have to make them want me to work for them. This role reversal means I get to dictate the terms of the 'project', and it's extremely unlikely that I'll ever want to work for a company that either a) doesn't know what the want in a hire or b) can't articulate it.
+
+p. So to all recruiters who contact me in the future. No job description means no response.
