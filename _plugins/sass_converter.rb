@@ -8,9 +8,9 @@ module Jekyll
       require 'sass'
       @setup = true
     rescue LoadError
-      STDERR.puts 'You are missing a library required for sass. Please run:'
-      STDERR.puts '  $ [sudo] gem install sass'
-      raise FatalException.new("Missing dependency: sass")
+      STDERR.puts 'You are missing a library required for scss. Please run:'
+      STDERR.puts '  $ [sudo] gem install scss'
+      raise FatalException.new("Missing dependency: scss")
     end
 
     def matches(ext)
