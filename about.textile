@@ -1,6 +1,6 @@
 ---
 title: about
-layout: post
+layout: default
 ---
 
 Someday I'll fill this out.
