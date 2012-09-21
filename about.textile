@@ -1,6 +1,20 @@
 ---
 title: about
-layout: default
+layout: page
 ---
 
-Someday I'll fill this out.
+h2. We could all use a variety of adjectives to describe ourselves and, in that regard, I'm no different. The thing about adjectives is that, at *best* they're non descript definitions that do little to dilineate one person from the others that described themselves likewise. At *worst*, they're divisive, exclusive ideas that often start with in stereo types and end in uninformed opinions. So instead of adjectives, I choose something else.
+
+bq. I choose to stand for and support those of lesser acclaim than myself, whenever possible.
+
+bq. I, by His grace, believe in God and it's daily, the hardest decision I've ever made.
+
+bq. Physical competition is a motivating factor in my life, as well as a calming influence.
+
+bq. When I want rest, sunlight, friends, and a margarita are the things I seek.
+
+bq. I will soon be married to the most beautiful woman I know, as well as the most Godly.
+
+bq. To me, there is nothing prettier than the Texas hill country at dusk and the sound of a million cicadas.
+
+bq. Programming is what I do, it's not who I am.

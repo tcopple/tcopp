@@ -24,7 +24,7 @@ $column_gutter: 20px;
     visibility: hidden;
     display: block;
     clear: both;
-  }
+}
 }
 
 .row {
@@ -145,94 +145,94 @@ $widths: one, two, three, four, five, six, seven, eight, nine;
 @mixin inline-block {
   display: inline-block;
   zoom: 1;
-  *display: inline; }
+        *display: inline; }
 
-@mixin shorthand($weight: normal, $size: 14px, $lineHeight: normal) {
-  font: {
-    size: $size;
-    weight: $weight; };
-  line-height: $lineHeight; }
+      @mixin shorthand($weight: normal, $size: 14px, $lineHeight: normal) {
+        font: {
+          size: $size;
+          weight: $weight; };
+          line-height: $lineHeight; }
 
-@mixin sans-serif($weight: normal, $size: 14px, $lineHeight: normal) {
-  font: {
-    family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    size: $size;
-    weight: $weight; };
-  line-height: $lineHeight; }
+        @mixin sans-serif($weight: normal, $size: 14px, $lineHeight: normal) {
+          font: {
+            family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            size: $size;
+            weight: $weight; };
+            line-height: $lineHeight; }
 
-@mixin serif($weight: normal, $size: 14px, $lineHeight: normal) {
-  font: {
-    family: "Georgia", Times New Roman, Times, sans-serif;
-    size: $size;
-    weight: $weight; };
-  line-height: $lineHeight; }
+          @mixin serif($weight: normal, $size: 14px, $lineHeight: normal) {
+            font: {
+              family: "Georgia", Times New Roman, Times, sans-serif;
+              size: $size;
+              weight: $weight; };
+              line-height: $lineHeight; }
 
-@mixin monospace($weight: normal, $size: 12px, $lineHeight: normal) {
-  font: {
-    family: "Monaco", Courier New, monospace;
-    size: $size;
-    weight: $weight; };
-  line-height: $lineHeight; }
+            @mixin monospace($weight: normal, $size: 12px, $lineHeight: normal) {
+              font: {
+                family: "Monaco", Courier New, monospace;
+                size: $size;
+                weight: $weight; };
+                line-height: $lineHeight; }
 
-$light-blue: lighten($blue, 42%);
-$lighter-blue: lighten($blue, 56%);
+              $light-blue: lighten($blue, 42%);
+              $lighter-blue: lighten($blue, 56%);
 
-// ------------------
-// General
-// ------------------
-body {
-  @include sans-serif;
-  margin: 0;
-  padding: 0;
-  background-repeat: no-repeat; }
+              // ------------------
+              // General
+              // ------------------
+              body {
+                @include sans-serif;
+                margin: 0;
+                padding: 0;
+                background-repeat: no-repeat; }
 
-a {
-  color: darken($blue, 10%);
-  &:hover {
-    color: $blue; } }
+              a {
+                color: darken($blue, 10%);
+                &:hover {
+                  color: $blue; } }
 
-// Header
-// -----------------
-.header {
-  width: 550px;
-  margin: 40px auto 0;
-  text-align: center;
-  position: relative;
-  h2 {
-    font-size: 50px;
-    letter-spacing: -1px;
-    color: #333333;
-    margin: 0;
-    padding: 0; }
-  a {
-    text-decoration: none;
-    color: #333333;
-    &:hover {
-      text-decoration: underline; } }
-  h3 {
-    margin: 0;
-    padding: 0;
-    color: #777777;
-    font-size: 22px;
-    font-weight: normal; }
-  hr {
-    margin: 20px 0 20px;
-    padding: 0;
-    width: 100%;
-    height: 0;
-    border: none;
-    border-bottom: 1px solid #cccccc; } }
+              // Header
+              // -----------------
+              .header {
+                width: 550px;
+                margin: 40px auto 0;
+                text-align: center;
+                position: relative;
+                h2 {
+                  font-size: 50px;
+                  letter-spacing: -1px;
+                  color: #333333;
+                  margin: 0;
+                  padding: 0; }
+                a {
+                  text-decoration: none;
+                  color: #333333;
+                  &:hover {
+                    text-decoration: underline; } }
+                h3 {
+                  margin: 0;
+                  padding: 0;
+                  color: #777777;
+                  font-size: 22px;
+                  font-weight: normal; }
+                hr {
+                  margin: 20px 0 20px;
+                  padding: 0;
+                  width: 100%;
+                  height: 0;
+                  border: none;
+                  border-bottom: 1px solid #cccccc; } }
 
-// Wrapper
-// ----------------------
-.wrapper {
-  width: 550px;
-  margin: 20px auto 0;
-  text-align: left; }
+              // Wrapper
+              // ----------------------
+              .wrapper {
+                width: 550px;
+                margin: 20px auto 0;
+                text-align: left; }
 
 // Posts
 // ---------------------
-.post {
+.post, .page {
   margin-top: 40px;
   margin-bottom: 75px;
 
@@ -245,11 +245,15 @@ a {
   h2.date {
     color: #888888;
     font-weight: normal;
-    margin: 5px 0 20px; }
+    margin: 5px 0 20px;
+  }
+
   p {
     font-size: 15px;
     line-height: 24px;
-    font-family: Arial, sans-serif; }
+    font-family: Arial, sans-serif;
+  }
+
   ul, ol {
     padding: 0px;
     margin: 5px 20px;
@@ -260,7 +264,10 @@ a {
       line-height: 20px;
       &:before {
         color: $blue;
-        content: "\00BB \0020"; } } }
+        content: "\00BB \0020";
+      }
+    }
+  }
 
   p.disclaimer {
     font-size: 11px;
@@ -313,21 +320,21 @@ a {
 
     &:hover {
       background: $light-blue;
-    }
   }
+}
 
-  li {
-    padding: 20px 0;
-    border-bottom: 1px solid #cccccc;
-    font-size: 18px;
-    margin-bottom: 0px;
+li {
+  padding: 20px 0;
+  border-bottom: 1px solid #cccccc;
+  font-size: 18px;
+  margin-bottom: 0px;
 
-    span {
-      color: #555555;
-      font-size: 15px;
-      font-weight: normal;
-    }
+  span {
+    color: #555555;
+    font-size: 15px;
+    font-weight: normal;
   }
+}
 }
 
 // Social Buttons
@@ -362,14 +369,14 @@ a {
     &:first-child {
       // border-left: 1px solid #ccc
       // padding-left: 34px
-    }
-    &:last-child {
-      // border-right: 1px solid #ccc
-    }
-    img {
-      // position: absolute
-      // left: 10px
-      display: block; } } }
+  }
+  &:last-child {
+    // border-right: 1px solid #ccc
+  }
+  img {
+    // position: absolute
+    // left: 10px
+    display: block; } } }
 
 // Misc
 // -----------------
@@ -398,5 +405,5 @@ a {
 ul, ol {
   li {
     margin-bottom: 10px;
-  }
+}
 }
