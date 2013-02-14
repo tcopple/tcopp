@@ -1,0 +1,16 @@
+---
+layout: post
+title: my only valentine
+---
+
+h1. {{ page.title }}
+
+I feel like this day, being the last Valentine's day you or I will ever experience outside of our covenant, is a particularly meaningful Valentines day. It's not meaningful because it's an arbitrarily important calendar day that comes before another arbitrarily important calendar day. It's not meaningful because stores, commercials, and consumerism tell me it should be meaningful. And it's definitely not because others around us keep asking me whether I've given any thought to this being the last Valentines day I have outisde of marriage -- we both know how unlikely that is to foster importance in my mind. Instead it's meaningful because it represents twenty seven years of waiting and hoping. *It represents twenty seven years of wondering when a season's valentine will become my only Valentine.* It represents twenty seven years of trying to answer important personal questions about what your character would be like, which flavor of ice cream would be your favorite, and what your 'automatic yes' scenario is.
+
+Now, with our marriage before us those questions are answered. And though it was  not Valentine's day when I came to those conclusions, it is today when I remember that I want you to be my Valentine because you're slow to anger and patient in love. Today when I remember that I want you to be my Valentine because your favorite ice cream isn't plain chocolate. Today when I remember that your 'automatic yes' had less to do with the scenario and more to do with the spirit of the question.
+
+When we're older, grayer, and wiser -- a time I know you can't wait for -- we'll have a lifetime's worth of Valentine memories, memories that I can't wait to make with you.
+
+*I do not plan to stop asking and I hope you'll never stop accepting.*
+
+Will you please be my Valentine?
